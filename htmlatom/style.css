@@ -20,6 +20,34 @@ h1 {
   margin: 0px;
 }
 .liutas1 {
-  width: 500px;
-  height: 600px;
+  float: left;
+  width: 33.33%;
+  height: px;
+  padding: 5px;
+
+}
+.liutai::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+.liutai {
+  display: flex;
+}
+.liutas1 {
+  flex: 33.33%;
+  padding: 5px;
+}
+body, html {
+  background-image:image("background.jpg");
+  height: 100%
+}
+.bg {
+  background-image: url("background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  back
 }
